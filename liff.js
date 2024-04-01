@@ -27,13 +27,13 @@ function sendText(text) {
     liff.sendMessages([{
         'type': 'text',
         'text': text
-    },{
-        'type': 'sticker',
-        'packageId': '11539',
-        'stickerId': '52114113'
-    },{
-        'type': 'text',
-        'text': '送信が完了しました！'
+    // },{
+    //     'type': 'sticker',
+    //     'packageId': '11539',
+    //     'stickerId': '52114113'
+    // },{
+    //     'type': 'text',
+    //     'text': '送信が完了しました！'
     }]).then(function () {
         liff.closeWindow();
     }).catch(function (error) {
