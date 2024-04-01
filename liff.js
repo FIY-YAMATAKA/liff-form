@@ -29,8 +29,8 @@ function sendText(text) {
         'text': text
     },{
         "type": "sticker",
-        "packageId": "1070",
-        "stickerId": "17856"
+        "packageId": "11539",
+        "stickerId": "52114127"
     }]).then(function () {
         liff.closeWindow();
     }).catch(function (error) {
