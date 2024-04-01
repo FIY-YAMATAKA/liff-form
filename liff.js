@@ -29,14 +29,6 @@ function sendText(text) {
         'text': text
     },{
         "type": "sticker",
-        "packageId": "446",
-        "stickerId": "2005"
-    },{
-        "type": "sticker",
-        "packageId": "789",
-        "stickerId": "10855"
-    },{
-        "type": "sticker",
         "packageId": "1070",
         "stickerId": "17856"
     }]).then(function () {
