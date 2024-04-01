@@ -34,7 +34,7 @@ function sendText(text) {
     },{
         'type': 'text',
         'text': '送信が完了しました！'
-    },]).then(function () {
+    }]).then(function () {
         liff.closeWindow();
     }).catch(function (error) {
         window.alert('Failed to send message ' + error);
