@@ -31,9 +31,6 @@ function sendText(text) {
         'type': 'sticker',
         'packageId': '11539',
         'stickerId': '5211411'
-    },{
-        'type': 'text',
-        'text': '送信が完了しました！'
     }]).then(function () {
         liff.closeWindow();
     }).catch(function (error) {
